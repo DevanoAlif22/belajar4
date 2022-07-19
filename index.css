@@ -1,0 +1,470 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+
+.container1 {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 10px 0;
+
+}
+
+.foto {
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+.foto img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.search {
+    border-radius: 20px;
+    border: 0.2px solid;
+    background-color: rgb(218, 218, 218);
+    height: 20px;
+    width: 200px;
+    margin-top: 5px;
+}
+
+.datang {
+    align-items: center;
+}
+
+.datang h4 {
+    color: rgb(106, 183, 255);
+}
+.datang h4 span {
+    color: rgb(40, 20, 220);
+}
+.datang h5 {
+    color: rgb(170, 170, 170);
+}
+
+.menu {
+    display: flex;
+    margin-left: 180px;
+    text-align: center;
+    align-items: center;
+}
+
+.menu a {
+    margin-right: 40px;
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+.gambar2 img {
+    width: 30px;
+    height: 30px;
+    margin-left: 170px;
+}
+
+/* */
+
+.saldo {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 190px;
+    left: 150px;
+}
+.saldo p {
+    font-size: 15px;
+    color: rgb(156, 156, 156);
+}
+
+.saldo img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.container2 {
+    display: flex;
+}
+
+.kotak1 {
+    width: 35%;
+    height: 250px;
+    background-color: aqua;
+    border-radius: 20px;
+    margin-top: 35px;
+    margin-left: 50px;
+    display: flex;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.isi {
+    width: 40%;
+    height: 90px;
+    padding: 20px;
+    background-color: white;
+    line-height: 35px;  
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5);
+    margin: auto 30px;
+    margin-top: 60px;
+}
+
+.isi h5 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.isi p {
+    font-size: 13px;
+}
+
+.kotak2 {
+    margin: auto 0;
+    margin-left: 10px;
+}
+.kotak2 a {
+    text-decoration: none;
+    color: black;
+}
+.kotak2 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+.isi1 {
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+}
+
+
+.isi2 {
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.isi3 {
+    background-color: white;
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.Tentang {
+}
+
+.Tentang h2 {
+    color: rgb(67, 48, 245);
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 70px;
+    margin-left: 80px;
+    font-size: 40px;
+}
+
+.Tentang p {
+    width: 400px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.Tentang a {
+    text-decoration: none;
+    color: black;
+    margin-left: 80px;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Tentang img{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 120px;
+    right: 30px;
+}
+
+.iklan {
+    display: flex;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5);
+    line-height: 40px;
+}
+.iklan img {
+    width: 65%;
+    height: 250px;
+    border-radius: 20px 0 0 20px;
+}
+
+.teks {
+    margin-left: 40px;
+}
+
+.teks h4 {
+    margin-bottom: 20px;
+    color: crimson;
+}
+
+.teks a {
+    text-decoration: none;
+    font-size: 15px;
+    color: crimson;
+}
+
+.bundar {
+    text-align: center;
+    align-items: center;
+    color: rgb(155, 155, 155);
+    margin-bottom: 50px;
+}
+
+/* */
+
+.game {
+    
+    margin-left: 60px;
+}
+.atas {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.atas img {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+.atas a {
+    text-decoration: none;
+    color: black;
+    margin-left: 900px;
+}
+
+.atas2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.atas2 img {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+.atas2 a {
+    text-decoration: none;
+    color: black;
+    margin-left: 900px;
+}
+
+/*aplikasi*/
+.ml {
+background-color: rgb(46, 50, 255);
+width: 200px;
+height: 250px;
+border-radius: 10px;
+margin-right: 40px;
+box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.ff {
+    background-color: rgb(46, 50, 255);
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 40px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.ff p a {
+
+    margin-top: 20px;
+    margin-left: 65px;
+}
+.valo {
+    background-color: rgb(46, 50, 255);
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 40px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.bigo p a {
+
+    margin-top: 20px;
+    margin-left: 65px;
+}
+.bigo {
+    background-color: rgb(46, 50, 255);
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 40px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.bigo p a {
+
+    margin-top: 20px;
+    margin-left: 65px;
+}
+.token {
+    background-color: rgb(46, 50, 255);
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 40px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.token p a {
+
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.pulsa {
+    background-color: rgb(46, 50, 255);
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 40px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.pulsa p a {
+
+    margin-top: 20px;
+    margin-left: 65px;
+}
+.stumble {
+    background-color: rgb(46, 50, 255);
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 40px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.stumble p a {
+
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.pubg {
+    background-color: rgb(46, 50, 255);
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-right: 40px;
+    box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.pubg p a {
+    text-align: center;
+    align-items: center;
+}
+
+.genshin {
+    background-color: rgb(46, 50, 255);
+    width: 200px;
+    height: 250px;
+border-radius: 10px;
+box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+
+/*aplikasi*/
+
+.bawah {
+    display: flex;
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.bawah img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.bawah a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+
+}
+.bawah2 {
+    display: flex;
+    margin-left: 35px;
+}
+.bawah2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.bawah2 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    
+}
+.bawah3 {
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+.bawah3 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.bawah3 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+
+}
+
+.ss {
+    height: 50%;
+}
+
+.copy {
+    text-align: center;
+    align-items: center;
+}
